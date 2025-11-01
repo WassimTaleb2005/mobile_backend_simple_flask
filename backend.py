@@ -29,7 +29,7 @@ def get_news_categories():
 
 @app.route('/')
 def index():
-    return 'Welcome ENSIA Students from Flask on Vercel!'
+    return '{"title": "List of Categories", "time": "2025-11-01 22:45:03", "categories": [{"id": 1, "name": "Sports"}, {"id": 2, "name": "Politics"}, {"id": 3, "name": "Education"}]}'
 
 if __name__ == '__main__':
     # 👇 Use environment variable PORT (required for Vercel)
